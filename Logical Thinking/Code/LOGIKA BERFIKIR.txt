@@ -1,0 +1,31 @@
+LOGIKA BERFIKIR
+
+1
+Program Comparison bekerja dengan menerima dua bilangan bulat dari pengguna, kemudian membandingkannya menggunakan enam operator, yaitu ==, !=, <, >, <=, dan >=. Setiap kondisi diperiksa menggunakan pernyataan if. Jika kondisi benar, hasil perbandingan ditampilkan; jika salah, hasil tidak ditampilkan. Setelah semua kondisi diperiksa, program selesai dijalankan.
+
+2
+Program ClassAverage menerima 10 nilai ujian dari pengguna. Setiap nilai dijumlahkan ke variabel total menggunakan perulangan while yang berjalan sebanyak 10 kali. Setelah semua nilai dimasukkan, program menghitung rata-rata dengan membagi total nilai dengan 10, lalu menampilkan total dan rata-rata nilai ujian.
+
+3
+Program ClassAverage2 menerima nilai ujian dari pengguna secara berulang hingga pengguna memasukkan angka -1 sebagai tanda berhenti. Setiap nilai yang dimasukkan dijumlahkan ke variabel total dan dihitung menggunakan gradeCounter. Setelah input selesai, program menghitung dan menampilkan total serta rata-rata nilai. Jika tidak ada nilai yang dimasukkan, program menampilkan pesan bahwa tidak ada nilai yang dimasukkan.
+
+4 
+Program Analysis memproses hasil ujian dari 10 siswa menggunakan perulangan while. Pengguna memasukkan angka 1 untuk lulus dan 2 untuk gagal. Program menghitung jumlah siswa yang lulus (passes) dan gagal (failures), lalu menampilkan hasilnya. Jika jumlah siswa yang lulus lebih dari 8 orang, program menampilkan pesan bahwa kelas sangat sukses.
+
+5
+Program Increment menunjukkan perbedaan antara operator increment postfix (c++) dan prefix (++c). Pada postfix, nilai c ditampilkan terlebih dahulu, kemudian bertambah 1. Pada prefix, nilai c bertambah 1 terlebih dahulu, lalu ditampilkan. Program menginisialisasi c dengan nilai 5 untuk membandingkan hasil kedua operator tersebut.
+
+6
+Program WhileCounter.java menampilkan angka 1 sampai 10 menggunakan perulangan while. Variabel counter dimulai dari 1, kemudian nilainya ditampilkan dan ditambah 1 setiap perulangan. Proses berlanjut selama counter <= 10. Ketika nilainya mencapai 11, perulangan berhenti.
+
+7
+Program Interest.java menghitung jumlah uang deposito beserta bunganya selama 10 tahun. Modal awal ditetapkan sebesar 1.000 dengan suku bunga 5% per tahun. Perulangan for digunakan untuk menghitung jumlah deposito setiap tahun menggunakan rumus bunga majemuk, kemudian menampilkan hasilnya dalam bentuk tabel.
+
+8
+Program ini bekerja dengan meminta pengguna memasukkan beberapa nilai ujian antara 0 sampai 100. Setiap nilai yang dimasukkan akan dijumlahkan untuk mendapatkan total nilai, kemudian program menentukan nilai huruf berdasarkan rentang nilai menggunakan switch. Nilai 90–100 mendapat A, 80–89 mendapat B, 70–79 mendapat C, 60–69 mendapat D, sedangkan nilai di bawah 60 mendapat F. Proses ini terus berulang sampai pengguna memasukkan tanda akhir berkas (EOF). Setelah selesai, program menampilkan total nilai, rata-rata nilai, serta jumlah masing-masing nilai huruf yang diperoleh. Jika tidak ada nilai yang dimasukkan, program akan menampilkan pesan bahwa tidak ada nilai yang dimasukkan.
+
+9
+Program ini digunakan untuk menampilkan tabel kebenaran dari enam operator logika dalam Java, yaitu && (AND), || (OR), & (AND Boolean), | (OR Boolean), ^ (XOR), dan ! (NOT). Setiap operator menguji kombinasi nilai true dan false untuk menunjukkan hasil operasi logikanya. Operator AND menghasilkan true jika kedua kondisi benar, sedangkan OR menghasilkan true jika minimal satu kondisi benar. Operator XOR menghasilkan true jika kedua kondisi berbeda, dan NOT membalik nilai logika menjadi kebalikannya. Hasil dari setiap operasi kemudian ditampilkan ke layar menggunakan System.out.printf(), sehingga pengguna dapat memahami cara kerja masing-masing operator logika.
+
+10
+Program MaximumFinder dibuat untuk mencari nilai terbesar dari tiga angka yang dimasukkan oleh pengguna. Pertama, program menerima tiga angka bertipe double menggunakan Scanner. Kemudian, ketiga angka tersebut dikirim ke metode maximum() untuk dibandingkan. Variabel maximumValue awalnya menyimpan nilai pertama, lalu program memeriksa apakah nilai kedua dan ketiga lebih besar dari nilai tersebut. Jika lebih besar, nilai maximumValue akan diperbarui. Setelah semua perbandingan selesai, program mengembalikan nilai terbesar dan menampilkannya ke layar.
